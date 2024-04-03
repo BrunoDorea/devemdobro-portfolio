@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- FAVICON -->
+    <link rel='shortcut icon' href='./src/assets/favicon.png' type='image/png' />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <!-- CSS -->
+    <link rel='stylesheet' href='./src/css/style.css' />
+    <!-- JAVASCRIPT -->
+    <script defer src='./src/js/main.js'></script>
+    <title>Bruno Dórea - Desenvolvedor Front-end</title>
+    <!-- GOOGLE TAG (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD'></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-TJQ2XJZPTD');
+    </script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">BD</h1>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Sou Bruno Dórea</h1>
+            <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
+            <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de
+                compartilhar meus conhecimentos. 😁</p>
+            <p>Ah, também sou fã de jogos, filmes, séries e animes. 💜</p>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/brunohfdorea/" title="Ir para o LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <!-- <li>
+                  <a href="https://wa.me/551199999999" title="Enviar Mensagem no WhatsApp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li> -->
+
+                <li>
+                    <a href="https://github.com/brunodorea" title="Ir para o GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/bruno.h_" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="https://github.com/brunodorea.png" alt="Imagem de perfil">
+            </div>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus Projetos</h2>
+        <div class="container-projetos">
+
+            <div class="projeto ativo">
+                <a href="https://github.com/BrunoDorea/devemdobro-gta" target="_blank">
+                    <img src="/src/assets/gta-v.png" alt="Landing page de GTA V" />
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com/BrunoDorea/devemdobro-onePiece" target="_blank">
+                    <img src="/src/assets/one-piece.png" alt="Landing page de One Piece" />
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com/BrunoDorea/devemdobro_x-men" target="_blank">
+                    <img src="/src/assets/x-men.png" alt="Landing page de X-Men" />
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <button class="btn-mostrar-projetos">Mostrar mais</button>
+    </section>
+</body>
+
+</html>
